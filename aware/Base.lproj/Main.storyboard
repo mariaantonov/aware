@@ -126,7 +126,8 @@ Page 3: Grow a tree with our interactive game! Each time you complete a task, cl
                                 <rect key="frame" x="39" y="378" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.28627450980000002" green="0.094117647060000004" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button">
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="Tips to Reduce Stress">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -137,7 +138,7 @@ Page 3: Grow a tree with our interactive game! Each time you complete a task, cl
                                 <rect key="frame" x="240" y="378" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.28627450980000002" green="0.094117647060000004" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="All about Sleep">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -148,7 +149,7 @@ Page 3: Grow a tree with our interactive game! Each time you complete a task, cl
                                 <rect key="frame" x="39" y="580" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.28627450980000002" green="0.094117647060000004" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Morning Routine">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -159,7 +160,8 @@ Page 3: Grow a tree with our interactive game! Each time you complete a task, cl
                                 <rect key="frame" x="240" y="580" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.28627450980000002" green="0.094117647060000004" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Benefits of Exercise">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -1200,9 +1202,10 @@ Maintaining the right diet is the key to reducing stress. Well-nourished bodies 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bN0-Ju-A9g"/>
-        <segue reference="fhB-92-4TG"/>
-        <segue reference="AFt-Bi-qBc"/>
+        <segue reference="7Wa-Je-ira"/>
+        <segue reference="Zs3-pb-ZDw"/>
+        <segue reference="WmI-bX-MfP"/>
+        <segue reference="zaT-f0-ky0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Add_a_heading-removebg-preview" width="500" height="500"/>
