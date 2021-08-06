@@ -39,6 +39,17 @@ Page 3: Grow a tree with our interactive game! Each time you complete a task, cl
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOW TO USE THE APP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcP-fL-Or8">
+                                <rect key="frame" x="114" y="243" width="187" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1834" translatesAutoresizingMaskIntoConstraints="NO" id="Rvf-zS-IA3">
+                                <rect key="frame" x="155" y="461" width="128" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gXk-30-RHe"/>
                     </view>
@@ -1202,9 +1213,8 @@ Maintaining the right diet is the key to reducing stress. Well-nourished bodies 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7Wa-Je-ira"/>
-        <segue reference="Zs3-pb-ZDw"/>
-        <segue reference="WmI-bX-MfP"/>
+        <segue reference="bN0-Ju-A9g"/>
+        <segue reference="fhB-92-4TG"/>
         <segue reference="zaT-f0-ky0"/>
     </inferredMetricsTieBreakers>
     <resources>
