@@ -829,10 +829,6 @@ Maintaining the right diet is the key to reducing stress. Well-nourished bodies 
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1834" translatesAutoresizingMaskIntoConstraints="NO" id="M6D-uv-q3y">
-                                <rect key="frame" x="33" y="112" width="348" height="334"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5LX-jZ-t8S">
                                 <rect key="frame" x="258" y="765" width="97" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -851,6 +847,10 @@ Maintaining the right diet is the key to reducing stress. Well-nourished bodies 
                                     <segue destination="lSQ-X4-bzt" kind="presentation" modalPresentationStyle="fullScreen" id="bN0-Ju-A9g"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1834" translatesAutoresizingMaskIntoConstraints="NO" id="M6D-uv-q3y">
+                                <rect key="frame" x="33" y="299" width="348" height="334"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="M6j-Zm-4Uj"/>
                         <color key="backgroundColor" red="0.80392156862745101" green="0.87058823529411766" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1219,7 +1219,7 @@ Maintaining the right diet is the key to reducing stress. Well-nourished bodies 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="zJ7-Lu-Rbf"/>
+        <segue reference="bN0-Ju-A9g"/>
         <segue reference="vuZ-f0-4so"/>
         <segue reference="ASM-X7-gVR"/>
         <segue reference="AFt-Bi-qBc"/>
