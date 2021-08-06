@@ -17,10 +17,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pop up that will have a mini tutorial how to use the app" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVo-MN-fjb">
-                                <rect key="frame" x="46" y="187" width="318" height="401"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1834" translatesAutoresizingMaskIntoConstraints="NO" id="o7X-xz-mOd">
+                                <rect key="frame" x="150" y="453" width="111" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOW TO USE THE APP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AzE-fq-bul">
+                                <rect key="frame" x="112" y="214" width="187" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVo-MN-fjb">
+                                <rect key="frame" x="60" y="183" width="318" height="401"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.71764705882352942" green="0.60784313725490191" blue="0.76470588235294112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Page 1: Use the calendar to select a date and track your symptoms + notes. 
+Page 2: Open up each box to reveal an article with helpful information related to health + lifestyle.
+Page 3: Grow a tree with our interactive game! Each time you complete a task, click the button and see your tree grow.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1186,8 +1200,8 @@ Maintaining the right diet is the key to reducing stress. Well-nourished bodies 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Zs3-pb-ZDw"/>
-        <segue reference="ASM-X7-gVR"/>
+        <segue reference="bN0-Ju-A9g"/>
+        <segue reference="fhB-92-4TG"/>
         <segue reference="AFt-Bi-qBc"/>
     </inferredMetricsTieBreakers>
     <resources>
