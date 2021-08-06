@@ -17,6 +17,10 @@
 		0144E69226B9C79D00FCFEEB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0144E69126B9C79D00FCFEEB /* ViewController2.swift */; };
 		0144E69426B9C7B100FCFEEB /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0144E69326B9C7B100FCFEEB /* ViewController3.swift */; };
 		0144E69626B9D1F300FCFEEB /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0144E69526B9D1F200FCFEEB /* ViewController4.swift */; };
+		7C8A77DB26BD7B9800E3BD0B /* CalenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8A77D926BD7B9800E3BD0B /* CalenderHelper.swift */; };
+		7C8A77DC26BD7B9800E3BD0B /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8A77DA26BD7B9800E3BD0B /* CalenderCell.swift */; };
+		7C8A77DE26BD7BA700E3BD0B /* ViewControllerCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8A77DD26BD7BA700E3BD0B /* ViewControllerCal.swift */; };
+		7C8A77E226BD807800E3BD0B /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8A77E126BD807800E3BD0B /* ViewControllerMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		0144E69126B9C79D00FCFEEB /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		0144E69326B9C7B100FCFEEB /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		0144E69526B9D1F200FCFEEB /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		7C8A77D926BD7B9800E3BD0B /* CalenderHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderHelper.swift; sourceTree = "<group>"; };
+		7C8A77DA26BD7B9800E3BD0B /* CalenderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
+		7C8A77DD26BD7BA700E3BD0B /* ViewControllerCal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerCal.swift; path = ../../weeklycalender/weeklycalender/ViewControllerCal.swift; sourceTree = "<group>"; };
+		7C8A77E126BD807800E3BD0B /* ViewControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,10 @@
 				0144E67C26B9A02200FCFEEB /* SceneDelegate.swift */,
 				0144E67E26B9A02200FCFEEB /* ViewController.swift */,
 				0144E68026B9A02200FCFEEB /* Main.storyboard */,
+				7C8A77E126BD807800E3BD0B /* ViewControllerMain.swift */,
+				7C8A77DD26BD7BA700E3BD0B /* ViewControllerCal.swift */,
+				7C8A77DA26BD7B9800E3BD0B /* CalenderCell.swift */,
+				7C8A77D926BD7B9800E3BD0B /* CalenderHelper.swift */,
 				0144E68626B9A02900FCFEEB /* Assets.xcassets */,
 				0144E68826B9A02900FCFEEB /* LaunchScreen.storyboard */,
 				0144E68B26B9A02900FCFEEB /* Info.plist */,
@@ -149,11 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8A77DE26BD7BA700E3BD0B /* ViewControllerCal.swift in Sources */,
+				7C8A77E226BD807800E3BD0B /* ViewControllerMain.swift in Sources */,
 				0144E69226B9C79D00FCFEEB /* ViewController2.swift in Sources */,
+				7C8A77DC26BD7B9800E3BD0B /* CalenderCell.swift in Sources */,
 				0144E69626B9D1F300FCFEEB /* ViewController4.swift in Sources */,
 				0144E67F26B9A02200FCFEEB /* ViewController.swift in Sources */,
 				0144E69426B9C7B100FCFEEB /* ViewController3.swift in Sources */,
 				0144E67B26B9A02200FCFEEB /* AppDelegate.swift in Sources */,
+				7C8A77DB26BD7B9800E3BD0B /* CalenderHelper.swift in Sources */,
 				0144E68526B9A02200FCFEEB /* aware.xcdatamodeld in Sources */,
 				0144E67D26B9A02200FCFEEB /* SceneDelegate.swift in Sources */,
 			);
