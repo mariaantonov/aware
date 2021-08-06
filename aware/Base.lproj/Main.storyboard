@@ -248,7 +248,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="  "/>
                                 <connections>
-                                    <segue destination="lSQ-X4-bzt" kind="custom" id="oP1-uG-9pD"/>
+                                    <segue destination="lSQ-X4-bzt" kind="presentation" modalPresentationStyle="fullScreen" id="Zs3-pb-ZDw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6F9-H5-Eco">
@@ -941,7 +941,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="lSQ-X4-bzt" kind="custom" id="NSI-2L-4Lu"/>
+                                    <segue destination="lSQ-X4-bzt" kind="presentation" modalPresentationStyle="fullScreen" id="bN0-Ju-A9g"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1144,7 +1144,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="  "/>
                                 <connections>
-                                    <segue destination="0sD-VT-sJ3" kind="custom" id="dOu-u1-mEV"/>
+                                    <segue destination="0sD-VT-sJ3" kind="presentation" modalPresentationStyle="fullScreen" id="ASM-X7-gVR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdc-Is-NP6">
@@ -1293,8 +1293,9 @@
                         <viewLayoutGuide key="safeArea" id="iZg-Mw-OLx"/>
                         <color key="backgroundColor" red="0.80392156859999997" green="0.87058823529999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ikM-gG-1H2"/>
                     <connections>
-                        <outlet property="collectionView" destination="vyl-Jc-O10" id="g7w-qO-ysN"/>
+                        <outlet property="collectionView" destination="vyl-Jc-O10" id="Gyh-gU-hGQ"/>
                         <outlet property="monthLabel" destination="e1z-bs-74I" id="V7a-uk-Zls"/>
                     </connections>
                 </viewController>
@@ -1304,9 +1305,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="oP1-uG-9pD"/>
-        <segue reference="dOu-u1-mEV"/>
-        <segue reference="zaT-f0-ky0"/>
+        <segue reference="Zs3-pb-ZDw"/>
+        <segue reference="ASM-X7-gVR"/>
+        <segue reference="AFt-Bi-qBc"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Add_a_heading-removebg-preview" width="500" height="500"/>
