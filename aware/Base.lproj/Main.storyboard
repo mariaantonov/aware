@@ -986,6 +986,10 @@ Maintaining the right diet is the key to reducing stress. Well-nourished bodies 
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="lSQ-X4-bzt" id="zLn-Ez-o3u"/>
+                                    <outlet property="delegate" destination="lSQ-X4-bzt" id="ceW-bd-uTS"/>
+                                </connections>
                             </collectionView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hZ-5h-yOe">
                                 <rect key="frame" x="0.0" y="73" width="131.5" height="34.5"/>
@@ -1183,7 +1187,7 @@ Maintaining the right diet is the key to reducing stress. Well-nourished bodies 
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Zs3-pb-ZDw"/>
-        <segue reference="0wg-hk-P2A"/>
+        <segue reference="ASM-X7-gVR"/>
         <segue reference="AFt-Bi-qBc"/>
     </inferredMetricsTieBreakers>
     <resources>
