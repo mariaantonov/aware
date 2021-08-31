@@ -1376,7 +1376,7 @@ Maintaining the right diet is the key to reducing stress. Well-nourished bodies 
                                     <color key="titleColor" systemColor="labelColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="yxz-Xw-Vxd" kind="show" id="6H1-4B-l0g"/>
+                                    <segue destination="yxz-Xw-Vxd" kind="show" id="9Cf-D9-52R"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1403,11 +1403,10 @@ Maintaining the right diet is the key to reducing stress. Well-nourished bodies 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="XDA-nh-ktn"/>
         <segue reference="Zs3-pb-ZDw"/>
-        <segue reference="ohm-Z0-5iV"/>
-        <segue reference="fhB-92-4TG"/>
-        <segue reference="zaT-f0-ky0"/>
+        <segue reference="vuZ-f0-4so"/>
+        <segue reference="ASM-X7-gVR"/>
+        <segue reference="9Cf-D9-52R"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Add_a_heading-removebg-preview" width="500" height="500"/>
