@@ -1135,7 +1135,7 @@ Maintaining the right diet is the key to reducing stress. Well-nourished bodies 
                                 </subviews>
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vyl-Jc-O10">
-                                <rect key="frame" x="0.0" y="195" width="414" height="87"/>
+                                <rect key="frame" x="0.0" y="182" width="414" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="5" minimumInteritemSpacing="5" id="qZ9-5X-w5W">
